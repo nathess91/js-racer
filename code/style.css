@@ -1,0 +1,83 @@
+body {
+  position: fixed;
+  width: 100%;
+  background-image: url("http://i65.tinypic.com/ery1vm.jpg");
+}
+
+img {
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  clear: both;
+}
+
+ul li {
+  text-align: center;
+  color: red;
+  font-family: 'Baloo Tamma', cursive;
+  margin-left: 0px;
+  margin-right: 20px;
+  display: inline;
+  /*margin-top: 0px;*/
+  /*clear: both;*/
+  list-style: none;
+}
+
+#p1-instructions {
+  margin-left: 155px;
+}
+
+#p2-instructions {
+  margin-left: 45px;
+}
+
+#logo {
+  height: 250px;
+  width: 450px;
+}
+
+#gameboard {
+  position: relative;;
+}
+
+.racers {
+  height: 100px;
+  width: 100px;
+  margin: 100px;
+  float: left;
+  clear: left;
+}
+
+#player1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+#player2 {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.finishline {
+  width: 600px;
+  height: 700px;
+  float: right;
+  position: absolute;;
+  margin-left: 85%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 100px;
+}
+
+#winner {
+	position: absolute;
+	width: 1000px;
+	top: 55%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
